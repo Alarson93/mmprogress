@@ -86,10 +86,8 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-MMProgress_Tests/MMProgress.framework"
   install_framework "Pods-MMProgress_Tests/SpinKit.framework"
-  install_framework "Pods-MMProgress_Tests/TOMSMorphingLabel.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-MMProgress_Tests/MMProgress.framework"
   install_framework "Pods-MMProgress_Tests/SpinKit.framework"
-  install_framework "Pods-MMProgress_Tests/TOMSMorphingLabel.framework"
 fi

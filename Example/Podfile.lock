@@ -1,9 +1,7 @@
 PODS:
-  - MMProgress (1.2.7):
+  - MMProgress (1.2.11):
     - SpinKit
-    - TOMSMorphingLabel
   - SpinKit (1.2.0)
-  - TOMSMorphingLabel (0.5.1)
 
 DEPENDENCIES:
   - MMProgress (from `../`)
@@ -14,8 +12,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MMProgress: d0529e57460901ab63a6c574128f1127b35029b7
+  MMProgress: cfcc4a73b1a673b577db5d975464a8bac6d3ad3e
   SpinKit: 65906a8b534a4e14cbfd3f8b0b6c329131faef4a
-  TOMSMorphingLabel: 3e88a2bf5257f8993ebc51fb3109187a0bfb2c4d
 
 COCOAPODS: 0.39.0

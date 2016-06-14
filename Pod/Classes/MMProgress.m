@@ -346,6 +346,7 @@ static CGFloat const MMContentViewWithoutStatusCornerRadius = 15.0f;
 {
     [self removeFromSuperview];
     self.status = @"";
+    //TODO: Caused potential crashes; try again using the modified morphing label.
 //    [self.statusLabel setTextWithoutMorphing:@""];
 
     UIAccessibilityPostNotification(UIAccessibilityScreenChangedNotification, nil);

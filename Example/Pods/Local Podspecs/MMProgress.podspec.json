@@ -1,8 +1,8 @@
 {
   "name": "MMProgress",
-  "version": "1.2.7",
-  "summary": "MMProgress is a progress indicator that allows for custom animation views and provides a blur effect.",
-  "description": "\"MMProgress, built off of KVNProgress, is a progress indicator view. You can pass in animations, provide a background tint, and choose whether or not you want full screen. There is also an option for no blur if you so choose.\"",
+  "version": "1.2.11",
+  "summary": "MMProgress is a progress hud that offers a variety of UI features.",
+  "description": "\"MMProgress is a flexible progress hud. It was built in inspiration from KVNProgress and SVProgressHUD. You can pass in custom animations, provide a background tint, choose whether or not you want full screen, and much more. My goal with this is to create an extremely flexible, beautiful, and easy to use hud.\"",
   "homepage": "https://bitbucket.org/myriadmobile/mmprogress",
   "license": "MIT",
   "authors": {
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://bitbucket.org/myriadmobile/mmprogress",
-    "tag": "1.2.7"
+    "tag": "1.2.11"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,9 +23,6 @@
     ]
   },
   "dependencies": {
-    "TOMSMorphingLabel": [
-
-    ],
     "SpinKit": [
 
     ]

@@ -29,40 +29,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>TOMSMorphingLabel.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>57F8441789D954604C93D541974AA799</key>
+		<key>102956743ECC5FE4D464CF57CE01DF8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>62A1F7EC0AB625B21EC72F6F21742079</key>
+		<key>13E589EE5CE117F9C99E6E22CC440BE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6BAD99E3506C1EFFB1DF39219549BC5E</key>
+		<key>352FAE7944926BA345A272AEA732E4AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>87B9CDB5D303567B84A61169DE878B14</key>
+		<key>BCAC031E4AEB44E163A0762BE232ECEE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8A15FA89C471082DB4A9C5B0213546F5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FCB5A04E80F56DAAA0EE321A8972E335</key>
+		<key>C705E6902A7DB156DE9B81DB59733F99</key>
 		<dict>
 			<key>primary</key>
 			<true/>
