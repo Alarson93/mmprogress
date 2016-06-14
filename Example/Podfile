@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MMProgress_Example', :exclusive => true do
+  pod 'MMProgress', :path => '../'
+  pod 'SpinKit'
+end
+
+target 'MMProgress_Tests', :exclusive => true do
+  pod 'MMProgress', :path => '../'
+  pod 'SpinKit'
+  
+end

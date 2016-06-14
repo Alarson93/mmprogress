@@ -1,0 +1,6 @@
+framework module MMProgress {
+  umbrella header "MMProgress-umbrella.h"
+
+  export *
+  module * { export * }
+}

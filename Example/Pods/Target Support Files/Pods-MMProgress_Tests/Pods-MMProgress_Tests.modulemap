@@ -1,0 +1,6 @@
+framework module Pods_MMProgress_Tests {
+  umbrella header "Pods-MMProgress_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
