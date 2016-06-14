@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MMProgress"
-  s.version          = "1.2.11"
+  s.version          = "1.2.12"
   s.summary          = "MMProgress is a progress hud that offers a variety of UI features."
 
 # This description is used to generate tags and improve search results.
