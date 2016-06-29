@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MMProgress"
-  s.version          = "1.2.12"
+  s.version          = "1.2.13"
   s.summary          = "MMProgress is a progress hud that offers a variety of UI features."
 
 # This description is used to generate tags and improve search results.
@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
                         "MMProgress is a flexible progress hud. It was built in inspiration from KVNProgress and SVProgressHUD. You can pass in custom animations, provide a background tint, choose whether or not you want full screen, and much more. My goal with this is to create an extremely flexible, beautiful, and easy to use hud."
                        DESC
 
-  s.homepage         = "https://bitbucket.org/myriadmobile/mmprogress"
+  s.homepage         = "https://github.com/Alarson93/mmprogress"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Alex Larson" => "alarson@myriadmobile.com" }
-  s.source           = { :git => "https://bitbucket.org/myriadmobile/mmprogress", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Alarson93/mmprogress", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
