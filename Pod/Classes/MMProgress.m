@@ -136,13 +136,17 @@ static CGFloat const MMContentViewWithoutStatusCornerRadius = 15.0f;
 
 - (void) updateUIAnimated
 {
+    //Resets the progress hud to the presented state and begins updating the content.
+    //Cancel previous animations to prevent abnormal animation behavior
+    [self.layer removeAllAnimations];
+    [self present];
+
     __weak typeof(self) weakSelf = self;
     [UIView animateWithDuration:MMLayoutAnimationDuration
                      animations:^{
          //Setting text to empty fixes UI bug
          weakSelf.statusLabel.text = @"";
          [weakSelf setupUI];
-//         [weakSelf present];
      }];
 }
 
