@@ -1,3 +1,4 @@
+
 # MMProgress
 
 [![CI Status](http://img.shields.io/travis/Alex Larson/MMProgress.svg?style=flat)](https://travis-ci.org/Alex Larson/MMProgress)
@@ -109,12 +110,12 @@ There are many settings you can adjust in the `MMProgressConfiguration` object.
 ```
 
 Most of the settings should be fairly intuitive, but the following are powerful settings that may not be immediately apparent.
-*`backgroundType` This is an enum specifiying what background style the hud uses.
-	*`MMProgressBackgroundTypeBlurred` Visual Effect View to apply live blurring effect.
-	*`MMProgressBackgroundTypeSolid` No blur.
-*`backgroundColor` This is a UIColor that is laid over the top of the HUD background. You can use a color alpha of 1.0 for a solid background (thus making the background type moot). If you use less than 1.0, it will be as if you are *tinting* the HUD
-*`fullScreen` If fullscreen, the HUD isn't a box floating over the center of the screen, but a layer over the entirety of the screen. Visual effects and background color are applied.
-*`loadingIndicator` You can provide any loading indicator you would like. This means that you can provide indeterminate indicators or you can have an instance of a progress indicator and provide that to the view.
+* `backgroundType` This is an enum specifiying what background style the hud uses.
+	* `MMProgressBackgroundTypeBlurred` Visual Effect View to apply live blurring effect.
+	* `MMProgressBackgroundTypeSolid` No blur.
+* `backgroundColor` This is a UIColor that is laid over the top of the HUD background. You can use a color alpha of 1.0 for a solid background (thus making the background type moot). If you use less than 1.0, it will be as if you are *tinting* the HUD
+* `fullScreen` If fullscreen, the HUD isn't a box floating over the center of the screen, but a layer over the entirety of the screen. Visual effects and background color are applied.
+* `loadingIndicator` You can provide any loading indicator you would like. This means that you can provide indeterminate indicators or you can have an instance of a progress indicator and provide that to the view.
 
 
 ## Notifications
