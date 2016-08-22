@@ -133,7 +133,7 @@ MMProgress is available under the MIT license. See the LICENSE file for more inf
 
 ## Credits
 
-MMProgress was inspired by [KVNProgress](https://github.com/AssistoLab/KVNProgress) and [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD). I am using [SpinKit](https://github.com/raymondjavaxx/SpinKit-ObjC) for the default loading animations.
+MMProgress was inspired by [KVNProgress](https://github.com/AssistoLab/KVNProgress) and [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD). I am using [SpinKit](https://github.com/raymondjavaxx/SpinKit-ObjC) for the default loading animations and a slightly modified version of [TOMSMorphingLabel](https://github.com/tomknig/TOMSMorphingLabel) for text animation.
 
 I wanted to extend and refine a functionality of both HUDs. I will do my best to keep MMProgress up to date and bug free. I also have plans on creating a Swift version in the future.
 
